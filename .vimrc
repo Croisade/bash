@@ -20,6 +20,7 @@ NeoBundle 'tmhedberg/SimpylFold'
 NeoBundle 'vim-syntastic/syntastic'
 NeoBundle 'nvie/vim-flake8'
 NeoBundle 'jnurmine/Zenburn'
+NeoBundle 'hashivim/vim-terraform'
 
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
@@ -70,3 +71,5 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 let python_highlight_all=1
 syntax on
 
+" Set numbers in vim
+set number
